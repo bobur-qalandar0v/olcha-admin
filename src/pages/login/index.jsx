@@ -15,7 +15,7 @@ function LoginPage() {
         if (res.status == 201) {
           setUser(res.data.token);
           navigate("/");
-          setToken(res.data.token);
+          // setToken(res.data.token);
         }
       })
       .catch((err) => {
